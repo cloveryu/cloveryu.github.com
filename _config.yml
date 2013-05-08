@@ -2,20 +2,19 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title/:year/:month/:day
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Koly's Blog
+title : "A single step, a thousand miles."
 tagline: Site Tagline
 author :
-  name : koly li
-  email : me.koly.li@gmail.com
-  github : koly23
-  weibo : Me_koly
+  name : Clover Yu
+  email : clover210yu@gmail.com
+  github : cloveryu
+  weibo : TW_YuYang
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : kolyblog
+      short_name : clover
     livefyre :
       site_id : 123
     intensedebate :
@@ -100,7 +99,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-0210-87'
     getclicky :
       site_id : 
     mixpanel :
