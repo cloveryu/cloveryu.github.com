@@ -547,14 +547,6 @@ pre {
 .the-footer .license p {
   margin-bottom: 0;
 }
-.the-header .unit-inner {
-  width: 15em;
-  margin: auto;
-}
-.the-header .logo a {
-  font-size: 22px;
-  line-height: 42px;
-}
 .unit-article .unit-head-inner,
 .unit-article .entry-content,
 .unit-article .misc-content,
@@ -674,8 +666,8 @@ pre {
     width: 26.25em;
   }
   .the-header .logo a {
-    font-size: 42px;
-    line-height: 52px;
+    font-size: 18px;
+    line-height: 32px;
     letter-spacing: -1px;
   }
   .the-header .nav-global {
