@@ -585,13 +585,11 @@ pre {
 }
 .ie .the-header .logo {
   width: 26.25em;
-  float: left;
 }
 .ie .the-header .nav-global {
   margin-top: 50px;
   text-align: right;
   width: 26.25em;
-  float: right;
 }
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
