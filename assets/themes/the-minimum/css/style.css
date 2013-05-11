@@ -543,13 +543,10 @@ pre {
 }
 .the-header .unit-inner {
   width: 15em;
-  margin-top: 1.625em;
-  margin-bottom: 1.625em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 .the-header .logo a {
-  font-size: 32px;
+  font-size: 22px;
   line-height: 42px;
 }
 .unit-article .unit-head-inner,
