@@ -218,12 +218,15 @@ pre {
 }
 .the-header .logo {
   width: 50em;
-  margin: 10px auto;
+  margin: 15px auto;
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   color: #072;
+}
+.the-header .logo a span {
+  margin-left: 80px;
 }
 .the-header .logo a:visited {
   color: #072;
