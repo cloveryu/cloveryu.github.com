@@ -222,12 +222,7 @@ pre {
 .the-header .nav-global {
   text-transform: uppercase;
 }
-.the-header .nav-global .forkme {
-  text-transform: lowercase;
-}
-.the-header .nav-global .forkme a{
-  color: #32af1f;
-}
+
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
