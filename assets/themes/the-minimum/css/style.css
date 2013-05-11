@@ -232,6 +232,7 @@ pre {
   color: #072;
 }
 .the-header .nav-global {
+  margin: auto;
   width: 50em;
 }
 .the-header .nav-global ul li {
@@ -596,8 +597,7 @@ pre {
   width: 50em;
 }
 .ie .the-header .nav-global {
-  margin-top: 50px;
-  text-align: right;
+  margin: auto;
   width: 50em;
 }
 .ie .unit-article .unit-head-inner,
@@ -771,8 +771,7 @@ pre {
     width: 50em;
   }
   .the-header .nav-global {
-    margin-top: 21px;
-    text-align: right;
+    margin: auto;
     width: 50em;
   }
   .unit-article .unit-head-inner,
