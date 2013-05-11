@@ -217,11 +217,12 @@ pre {
   background-color: #edf4ed;
 }
 .the-header .logo {
+  width: 25em;
   margin: 0;
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   color: #072;
 }
 .the-header .logo a:visited {
@@ -666,7 +667,7 @@ pre {
     width: 26.25em;
   }
   .the-header .logo a {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 32px;
     letter-spacing: -1px;
   }
