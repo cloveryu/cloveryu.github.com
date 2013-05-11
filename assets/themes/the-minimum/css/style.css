@@ -246,6 +246,7 @@ pre {
 --------------------------------------------------------------------------------- */
 #home header h1 {
   color: #37a;
+  width: 50em;
   margin: auto;
 }
 .unit-article header h1 {
