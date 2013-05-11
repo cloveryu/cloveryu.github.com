@@ -244,6 +244,10 @@ pre {
 
 /* MAIN
 --------------------------------------------------------------------------------- */
+#home header h1 {
+  color: #37a;
+  margin: auto;
+}
 .unit-article header h1 {
   color: #37a;
 }
