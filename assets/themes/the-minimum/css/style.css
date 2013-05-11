@@ -220,6 +220,10 @@ pre {
 .the-header .logo {
   margin: 0;
 }
+.the-header .logo a {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #072;
+}
 .the-header .logo a:visited {
   color: #2d2d2d;
 }
@@ -227,7 +231,12 @@ pre {
   text-transform: uppercase;
 }
 .the-header .nav-global ul li a {
+  cursor: pointer;
   color: #072;
+}
+.the-header .nav-global ul li a:hover {
+  background-color: #072;
+  color: white;
 }
 
 /* MAIN
