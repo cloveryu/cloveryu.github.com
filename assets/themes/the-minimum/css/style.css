@@ -217,7 +217,7 @@ pre {
   background-color: #edf4ed;
 }
 .the-header .logo {
-  width: 25em;
+  width: 50em;
   margin: 10px auto;
 }
 .the-header .logo a {
@@ -583,7 +583,7 @@ pre {
   margin-right: auto;
 }
 .ie .the-header .logo {
-  width: 25em;
+  width: 50em;
 }
 .ie .the-header .nav-global {
   margin-top: 50px;
@@ -758,7 +758,7 @@ pre {
     width: 60em;
   }
   .the-header .logo {
-    width: 25em;
+    width: 50em;
   }
   .the-header .nav-global {
     margin-top: 21px;
@@ -802,7 +802,7 @@ pre {
     width: 88.125em;
   }
   .the-header .logo {
-    width: 25em;
+    width: 50em;
   }
   .the-header .nav-global {
     width: 50.125em;
