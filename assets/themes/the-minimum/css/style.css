@@ -218,7 +218,8 @@ pre {
 }
 .the-header .logo {
   width: 25em;
-  margin: auto;
+  margin: 10px auto;
+  float: left;
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
