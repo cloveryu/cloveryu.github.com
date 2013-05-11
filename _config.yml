@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : "跬步致千里，眺远读一方。"
+title : "A single step, a thousand miles."
 tagline: Site Tagline
 author :
   name : Clover Yu
