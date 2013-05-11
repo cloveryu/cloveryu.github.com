@@ -1,6 +1,5 @@
 ---
 layout: page
-title: A single step, a thousand miles.
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
