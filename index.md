@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "跬步致千里，眺远读一方。A single step, a thousand miles."
+title: News and other updates
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
