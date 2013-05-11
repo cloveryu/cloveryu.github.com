@@ -227,9 +227,6 @@ pre {
 .the-header .logo a:visited {
   color: #2d2d2d;
 }
-.the-header .nav-global {
-  text-transform: uppercase;
-}
 .the-header .nav-global ul li a {
   cursor: pointer;
   color: #072;
