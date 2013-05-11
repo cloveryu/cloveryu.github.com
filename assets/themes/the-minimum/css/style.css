@@ -231,6 +231,9 @@ pre {
 .the-header .logo a:visited {
   color: #072;
 }
+.the-header .nav-global {
+  width: 50em;
+}
 .the-header .nav-global ul li {
   margin: 10px 15px;
 }
@@ -595,7 +598,7 @@ pre {
 .ie .the-header .nav-global {
   margin-top: 50px;
   text-align: right;
-  width: 26.25em;
+  width: 50em;
 }
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
@@ -770,7 +773,7 @@ pre {
   .the-header .nav-global {
     margin-top: 21px;
     text-align: right;
-    width: 26.25em;
+    width: 50em;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
@@ -812,7 +815,7 @@ pre {
     width: 50em;
   }
   .the-header .nav-global {
-    width: 50.125em;
+    width: 50em;
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
     width: 50.125em;
