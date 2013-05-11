@@ -231,9 +231,13 @@ pre {
 .the-header .logo a:visited {
   color: #072;
 }
+.the-header .nav-global ul li {
+  margin: 10px 15px;
+}
 .the-header .nav-global ul li a {
   cursor: pointer;
   color: #072;
+  font-size: 1.2em;
 }
 .the-header .nav-global ul li a:hover {
   background-color: #072;
