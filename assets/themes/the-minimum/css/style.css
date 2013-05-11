@@ -214,7 +214,6 @@ pre {
 --------------------------------------------------------------------------------- */
 
 .the-header {
-  font-family: Helvetica, Arial, sans-serif, junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
   background-color: #edf4ed;
 }
 .the-header .logo {
@@ -222,6 +221,7 @@ pre {
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
   color: #072;
 }
 .the-header .logo a:visited {
