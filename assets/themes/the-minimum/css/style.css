@@ -583,7 +583,7 @@ pre {
   margin-right: auto;
 }
 .ie .the-header .logo {
-  width: 26.25em;
+  width: 25em;
 }
 .ie .the-header .nav-global {
   margin-top: 50px;
@@ -758,7 +758,7 @@ pre {
     width: 60em;
   }
   .the-header .logo {
-    width: 26.25em;
+    width: 25em;
   }
   .the-header .nav-global {
     margin-top: 21px;
@@ -802,7 +802,7 @@ pre {
     width: 88.125em;
   }
   .the-header .logo {
-    width: 50.125em;
+    width: 25em;
   }
   .the-header .nav-global {
     width: 50.125em;
