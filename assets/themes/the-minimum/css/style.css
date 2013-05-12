@@ -211,7 +211,7 @@ pre {
   background-color: #edf4ed;
 }
 .the-header .logo {
-  width: 50em;
+  width: 960px;
   margin: 15px auto 0 auto;
 }
 .the-header .logo a {
@@ -517,18 +517,16 @@ pre {
  	IE
 */
 .ie .the-header .unit-inner {
-  width: 60em;
   margin-top: 1.625em;
   margin-bottom: 1.625em;
   margin-left: auto;
   margin-right: auto;
 }
 .ie .the-header .logo {
-  width: 50em;
+  width: 960px;
 }
 .ie .the-header .nav-global {
-  margin: auto;
-  width: 50em;
+  width: 960px;
 }
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
@@ -598,9 +596,6 @@ pre {
 	Wide Smartphone
 */
 @media only screen and (min-width: 480px) {
-  .the-header .unit-inner {
-    width: 26.25em;
-  }
   .the-header .logo a {
     font-size: 28px;
     line-height: 32px;
@@ -648,9 +643,6 @@ pre {
 	Tablet
 */
 @media only screen and (min-width: 768px) {
-  .the-header .unit-inner {
-    width: 50.125em;
-  }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
@@ -680,15 +672,11 @@ pre {
 	Not that old computer layout 
 */
 @media only screen and (min-width: 1280px) {
-  .the-header .unit-inner {
-    width: 60em;
-  }
   .the-header .logo {
-    width: 50em;
+    width: 960px;
   }
   .the-header .nav-global {
-    margin: auto;
-    width: 50em;
+    width: 960px;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
@@ -714,14 +702,11 @@ pre {
 	Huge-screen layout 
 */
 @media only screen and (min-width: 1410px) {
-  .the-header .unit-inner {
-    width: 88.125em;
-  }
   .the-header .logo {
-    width: 50em;
+    width: 960px;
   }
   .the-header .nav-global {
-    width: 50em;
+    width: 960px;
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
     width: 50.125em;
