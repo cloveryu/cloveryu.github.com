@@ -770,3 +770,6 @@ pre {
   font-size: 15px;
   color: #666;
 }
+.entry-content a, .entry-content a:hover, .entry-content a:visited {
+  color: #37a;
+}
