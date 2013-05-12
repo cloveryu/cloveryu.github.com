@@ -739,7 +739,16 @@ pre {
   font-size: 15px;
   color: #666;
 }
-.post-section:hover {
+.post-section .t {
   background-color: #edf4ed;
   border: 1px solid #072;
+}
+.post-title span {
+  background-color: #edf4ed;
+  color: #072;
+  border: 1px solid #072;
+}
+.post-title a {
+  margin-left: 20px;
+  color: #37a;
 }
