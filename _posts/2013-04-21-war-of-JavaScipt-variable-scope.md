@@ -14,7 +14,7 @@ tags: [JavaScript, Variable Scope]
 
 考虑下这样一个场景。Bill和Peter在同一家公司工作，他们的薪水由两部分组成：a和b。以下是表示他们薪水组成的数据结构。
 
-var emps = [{name:"Bill", parts:[{name:"a", salary:3000}, {name:"b", salary:2000}]}, {name:"Peter", parts:[{name:"a", salary:2500}, {name:"b", salary:2000}]}];
+	var emps = [{name:"Bill", parts:[{name:"a", salary:3000}, {name:"b", salary:2000}]}, {name:"Peter", parts:[{name:"a", salary:2500}, {name:"b", salary:2000}]}];
 
 现在，我们希望能计算出Bill和Peter的平均薪水。以下是一段可能的程序片段。
 
