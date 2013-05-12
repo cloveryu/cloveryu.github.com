@@ -11,11 +11,10 @@ group: navigation
 	<div>
 		<span class="post-date">{{ post.date | date_to_string }}</span>  
 		<span class="post-title">{{ post.title }}</span>  
-		<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>  
 	</div>
-	<div>
-		<span class="post-cate">Category: <span>{{ post.category }}</span></span>
-		<span class="post-tag">Tags: <span>{{ post.tags | array_to_sentence_string }}</span></span>
+	<div class="post-cate-tag">
+		<span>Category: {{ post.category }}</span>
+		<span>Tags: {{ post.tags | array_to_sentence_string }}</span>
 	</div>
 	<div class="post-desc">
 		{{ post.description }}<a href="{{ BASE_PATH }}{{ post.url }}">继续阅读 >></a>   

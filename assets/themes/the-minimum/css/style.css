@@ -749,10 +749,14 @@ pre {
   margin-left: 10px;
   color: #37a;
 }
-.post-cate {
+.post-cate-tag {
   color: #999;
+  font-size: 14px;
 }
-.post-tag {
-  color: #999;
-  margin-left: 20px;
+.post-cate-tag span {
+  margin-right: 20px;
+}
+.post-desc a {
+  margin-right: 20px;
+  color: #37a;
 }
