@@ -728,3 +728,15 @@ pre {
     width: 20.625em;
   }
 }
+
+/*
+  post
+ */
+.post-section {
+  margin: 10px 0;
+  padding: 5px;
+
+}
+.post-section:hover {
+  background-color: #edf4ed;
+}
