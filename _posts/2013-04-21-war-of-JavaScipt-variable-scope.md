@@ -20,11 +20,11 @@ tags: [JavaScript, Variable Scope]
 
 	var i, n, sum;
 	function salary(emp) {
-		sum = 0; 
-		for (i = 0, n = emp.parts.length; i < n; i++) {
-			sum += emp.parts[i].salary;
-		}
-		return sum;
+	sum = 0; 
+	for (i = 0, n = emp.parts.length; i < n; i++) {
+		sum += emp.parts[i].salary;
+	}
+	return sum;
 	}
 	function averageSalary(emps) {
 		sum = 0;  
