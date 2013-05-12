@@ -212,11 +212,11 @@ pre {
 }
 .the-header .logo {
   width: 960px;
-  margin: 15px auto 0 auto;
+  margin-top: 15px;
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: #072;
 }
 .the-header .logo a span {
@@ -597,7 +597,7 @@ pre {
 */
 @media only screen and (min-width: 480px) {
   .the-header .logo a {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
     letter-spacing: -1px;
   }
