@@ -18,7 +18,7 @@ group: navigation
 		<span class="post-tag">Tags: <span>{{ post.tags | array_to_sentence_string }}</span></span>
 	</div>
 	<div class="post-desc">
-		{{ post.description }} 	 
+		{{ post.description }}<a href="{{ BASE_PATH }}{{ post.url }}">继续阅读 >></a>   
 	</div>
 </div>
 {% endfor %}

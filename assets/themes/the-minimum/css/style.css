@@ -746,10 +746,13 @@ pre {
   padding: 1px 5px;
 }
 .post-title {
-  margin-left: 20px;
+  margin-left: 10px;
   color: #37a;
-  font-weight: bold;
+}
+.post-cate {
+  color: #999;
 }
 .post-tag {
+  color: #999;
   margin-left: 20px;
 }
