@@ -739,4 +739,5 @@ pre {
 }
 .post-section:hover {
   background-color: #edf4ed;
+  border: 1px solid #072;
 }
