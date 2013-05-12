@@ -18,23 +18,23 @@ tags: [JavaScript, Variable Scope]
 
 现在，我们希望能计算出Bill和Peter的平均薪水。以下是一段可能的程序片段。
 
-var i, n, sum;
-function salary(emp) {
-sum = 0; 
-for (i = 0, n = emp.parts.length; i < n; i++) {
-sum += emp.parts[i].salary;
-}
-return sum;
-}
-function averageSalary(emps) {
-sum = 0;  
-for (i = 0, n = emps.length; i < n; i++) {
-sum += salary(emps[i]);
-}
-return sum / n;
-}
+	var i, n, sum;
+	function salary(emp) {
+		sum = 0; 
+		for (i = 0, n = emp.parts.length; i < n; i++) {
+			sum += emp.parts[i].salary;
+		}
+		return sum;
+	}
+	function averageSalary(emps) {
+		sum = 0;  
+		for (i = 0, n = emps.length; i < n; i++) {
+			sum += salary(emps[i]);
+		}
+		return sum / n;
+	}
 
-averageSalary(emps);
+	averageSalary(emps);
 
 输出的结果并不是你口算的4750，而是2500。这是因为变量i、n和sum都是全局变量，在执行salary(emps[0])之后i的值变为了2，再回到averageSalary函数的循环体中时emps数组已然越界，最终sum的值只计算了emps数组中的第一个元素。
 
