@@ -747,8 +747,9 @@ pre {
 }
 .post-title {
   margin-left: 20px;
-}
-.post-title a {
-  margin-left: 20px;
   color: #37a;
+  font-weight: bold;
+}
+.post-tag {
+  margin-left: 20px;
 }
