@@ -1,5 +1,6 @@
 $(function() {
 	var _width = 960;
+	alert(3);
 	$("body").load(function(){
 			alert(2);
 		if (top == window) {
