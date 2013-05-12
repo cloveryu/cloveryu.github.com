@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "从CICS到SOA的本能进化"
-description: "CICS(Customer Information Control System)是主要运行于IBM大机系统上的事务处理和事务管理服务器。以其快速、稳定、高容量的联机事务特性博得了超过90％的财富500强公司的青睐。银行、保险以及政府机构的bank-teller应用、ATM系统、 保险行业应用系统以及工业生产控制系统等背后无一没有CICS的踪迹。另一方面,为了增强市场的动态适应能力..."
+description: "CICS(Customer Information Control System)是主要运行于IBM大机系统上的事务处理和事务管理服务器。以其快速、稳定、高容量的联机事务特性博得了超过90％的财富500强公司的青睐。银行、保险以及政府机构的bank-teller应用、ATM系统、 保险行业应用系统以及工业生产控制系统等背后无一没有CICS的踪迹。另一方面..."
 category: 企业架构
 tags: [CICS, SOA, ESB]
 ---
