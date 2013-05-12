@@ -220,7 +220,7 @@ pre {
   color: #072;
 }
 .the-header .logo a span {
-  margin-left: 360px;
+  margin-left: 250px;
 }
 .the-header .logo a:visited {
   color: #072;
@@ -524,10 +524,10 @@ pre {
   margin-right: auto;
 }
 .ie .the-header .logo {
-  width: 960px;
+  width: 858px;
 }
 .ie .the-header .nav-global {
-  width: 960px;
+  width: 858px;
 }
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
@@ -673,10 +673,10 @@ pre {
 */
 @media only screen and (min-width: 1280px) {
   .the-header .logo {
-    width: 960px;
+    width: 858px;
   }
   .the-header .nav-global {
-    width: 960px;
+    width: 858px;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
@@ -703,10 +703,10 @@ pre {
 */
 @media only screen and (min-width: 1410px) {
   .the-header .logo {
-    width: 960px;
+    width: 858px;
   }
   .the-header .nav-global {
-    width: 960px;
+    width: 858px;
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
     width: 50.125em;
