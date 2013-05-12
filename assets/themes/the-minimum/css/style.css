@@ -739,16 +739,30 @@ pre {
   font-size: 15px;
   color: #666;
 }
-.post-section .t {
-  background-color: #edf4ed;
-  border: 1px solid #072;
+.post-date {
 }
-.post-title span {
-  background-color: #edf4ed;
-  color: #072;
-  border: 1px solid #072;
+.post-title {
+  margin-left: 20px;
 }
 .post-title a {
   margin-left: 20px;
   color: #37a;
+}
+.post-cate {
+  color: #37a;
+}
+.post-cate span {
+  background-color: #edf4ed;
+  color: #37a;
+  border: 1px solid #37a;
+  padding: 1px 5px;
+}
+.post-tag {
+  color: #072;
+}
+.post-tag span {
+  background-color: #edf4ed;
+  color: #072;
+  border: 1px solid #072;
+  padding: 1px 5px;
 }
