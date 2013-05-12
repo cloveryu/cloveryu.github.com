@@ -494,14 +494,14 @@ pre {
 .unit-article .unit-foot-inner {
   width: 858px;
 }
-.unit-article .unit-foot-inner a.back-top-top {
+.unit-article .unit-foot-inner a.back-to-top {
   float: right;
   margin-right: 50px;
   margin-top: 20px;
   padding: 0 9px;
   color: #37a;
 }
-.unit-article .unit-foot-inner a.back-top-top:hover {
+.unit-article .unit-foot-inner a.back-to-top:hover {
   background-color: #37a;
   color: white;
 }
