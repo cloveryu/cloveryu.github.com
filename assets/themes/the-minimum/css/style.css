@@ -504,7 +504,6 @@ pre {
 .unit-article .entry-content,
 .unit-article .misc-content,
 .unit-article .unit-foot-inner {
-  width: 15em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -538,7 +537,6 @@ pre {
 .ie .unit-article .entry-content,
 .ie .unit-article .misc-content,
 .ie .unit-article .unit-foot-inner {
-  width: 60em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -629,8 +627,7 @@ pre {
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
-  .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .misc-content {
     width: 26.25em;
   }
   .layout-page .unit-body .unit-body-inner {
@@ -646,8 +643,7 @@ pre {
 @media only screen and (min-width: 768px) {
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
-  .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .misc-content {
     width: 50.125em;
   }
   .unit-article .unit-head-inner .meta {
@@ -681,8 +677,7 @@ pre {
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
-  .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
+  .unit-article .misc-content {
     width: 50.125em;
   }
   .unit-article .unit-foot .pagination {
@@ -711,9 +706,6 @@ pre {
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
     width: 50.125em;
-  }
-  .unit-article .unit-foot-inner {
-    width: 88.125em;
   }
   .unit-article .unit-foot .pagination {
     width: 54.375em;
@@ -757,6 +749,7 @@ pre {
   margin-right: 20px;
 }
 .post-desc a {
-  margin-right: 20px;
+  float: right;
   color: #37a;
+  text-decoration: none;
 }
