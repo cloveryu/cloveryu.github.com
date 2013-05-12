@@ -5,17 +5,19 @@ header: Blogs
 group: navigation
 ---
 {% include JB/setup %}
----
 
 {% for post in site.posts %}
-<div style="margin: 2em 0">
-<a href="{{ BASE_PATH }}{{ post.url }}" style="font-size:3em">{{ post.title }}</a>  
-<span style="float:right">{{ post.date | date_to_string }}</span>  
+<div class="post-section">
+	<div class="post-title">
+		<span>{{ post.date | date_to_string }}</span>  
+		<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>  
+	</div>
+	<div class="post-desc">
+		{{ post.description }} 	 
+	</div>
+	<div class="post-cate-tags">
+		Category: {{ post.category }}
+		Tags: {{ post.tags | array_to_sentence_string }}
+	</div>
 </div>
-
-####{{ post.description }}  
-*Category: {{ post.category }}*  
-*Tags: {{ post.tags | array_to_sentence_string }}*
-
----
 {% endfor %}
