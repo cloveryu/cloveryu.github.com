@@ -614,10 +614,6 @@ pre {
     list-style: none;
     padding-left: 0;
   }
-  .the-header .nav-global .home:after {
-    margin-left: 16px;
-    content: "/";
-  }
   .the-header .nav-global li {
     display: inline-block;
     *display: inline;
