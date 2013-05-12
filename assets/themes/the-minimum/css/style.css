@@ -230,12 +230,13 @@ pre {
   width: 50em;
 }
 .the-header .nav-global ul li {
-  margin: 10px 15px;
+  margin: 10px 0;
 }
 .the-header .nav-global ul li a {
   cursor: pointer;
   color: #072;
   font-size: 1.2em;
+  padding: 0 15px;
 }
 .the-header .nav-global ul li a:hover {
   background-color: #072;
@@ -602,7 +603,6 @@ pre {
     letter-spacing: -1px;
   }
   .the-header .nav-global {
-    margin-top: 1.625em;
     letter-spacing: -0.31em;
     *letter-spacing: normal;
     word-spacing: -0.43em;
