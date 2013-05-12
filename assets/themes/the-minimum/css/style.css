@@ -291,15 +291,6 @@ pre {
 .unit-article .entry-content:first-child h6 {
   margin-top: 0;
 }
-.unit-article a:link {
-  border-bottom: 1px dotted #99cc99;
-}
-.unit-article a:visited {
-  border-bottom: 1px dotted #77bb77;
-}
-.unit-article a:hover {
-  border-bottom: 1px dotted #bbddbb;
-}
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
   padding-left: 1em;
@@ -499,6 +490,15 @@ pre {
 }
 .the-footer .unit-foot .unit-inner {
   margin-left: 320px;
+}
+.unit-article .unit-foot-inner {
+  width: 858px;
+}
+.unit-article .unit-foot-inner a.back-top-top {
+  float: right;
+  margin-right: 35px;
+  margin-top: 20px;
+  color: #37a;
 }
 .unit-article .unit-head-inner,
 .unit-article .entry-content,
