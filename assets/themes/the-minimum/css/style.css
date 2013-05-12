@@ -212,7 +212,7 @@ pre {
 }
 .the-header .logo {
   width: 960px;
-  margin-top: 15px auto 0 auto;
+  margin: 15px auto 0 auto;
 }
 .the-header .logo a {
   font-family: Helvetica, Arial, sans-serif;
@@ -524,7 +524,6 @@ pre {
 }
 .ie .the-header .logo {
   width: 960px;
-  margin-top: 15px auto 0 auto;
 }
 .ie .the-header .nav-global {
   width: 960px;
@@ -675,7 +674,6 @@ pre {
 @media only screen and (min-width: 1280px) {
   .the-header .logo {
     width: 960px;
-    margin-top: 15px auto 0 auto;
   }
   .the-header .nav-global {
     width: 960px;
@@ -706,7 +704,6 @@ pre {
 @media only screen and (min-width: 1410px) {
   .the-header .logo {
     width: 960px;
-    margin-top: 15px auto 0 auto;
   }
   .the-header .nav-global {
     width: 960px;
