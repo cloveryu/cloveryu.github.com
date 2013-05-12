@@ -12,12 +12,12 @@ group: navigation
 		<span>{{ post.date | date_to_string }}</span>  
 		<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>  
 	</div>
-	<div class="post-desc">
-		{{ post.description }} 	 
-	</div>
 	<div class="post-cate-tags">
 		Category: {{ post.category }}
 		Tags: {{ post.tags | array_to_sentence_string }}
+	</div>
+	<div class="post-desc">
+		{{ post.description }} 	 
 	</div>
 </div>
 {% endfor %}
