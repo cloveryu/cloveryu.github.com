@@ -770,3 +770,11 @@ pre {
 .entry-content a, .entry-content a:hover, .entry-content a:visited {
   color: #37a;
 }
+
+/**
+ * about
+ */
+.about-entry {
+  width: 858px;
+  margin: auto;
+}
