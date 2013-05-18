@@ -405,7 +405,7 @@ pre {
 }
 /* post & page */
 .layout-page .tag_box {
-  background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
+  background-color: #edf4ed;
   padding: 0.8125em;
   list-style: none;
   -webkit-border-radius: 3px;
