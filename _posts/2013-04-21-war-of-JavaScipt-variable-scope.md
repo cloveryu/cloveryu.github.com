@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaScript变量作用域之殇"
-description: "如果你爱上了JavaScript这门诡异的语言，那我相信你一定在与其恋爱期间饱受了其变量作用域所引发的一系列问题的不少摧残。对于任何一门编程语言，变量作用域都是一个关切的话题。正如David Herman在《Effective JavaScript》中的形象比喻..."
+description: "如果你爱上了JavaScript这门诡异的语言，那我相信你一定在与其恋爱期间饱受了其变量作用域所引发的一系列问题的不少摧残。对于任何一门编程语言，变量作用域都是一个关切的话题。正如David Herman在《Effective JavaScript》中的形象比喻，“Scope is like oxygen to a programmer”。"
 category: 编程语言
 tags: [JavaScript, Variable Scope]
 ---
