@@ -774,7 +774,7 @@ pre {
 /**
  * about
  */
-.about-entry {
+.about-entry, .index-entry {
   width: 858px;
   margin: auto;
 }
