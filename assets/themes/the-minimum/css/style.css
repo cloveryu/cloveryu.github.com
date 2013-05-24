@@ -770,6 +770,23 @@ pre {
 .entry-content a, .entry-content a:hover, .entry-content a:visited {
   color: #37a;
 }
+img {
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -khtml-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -o-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: white 0.5em solid;
+}
 
 /**
  * about
