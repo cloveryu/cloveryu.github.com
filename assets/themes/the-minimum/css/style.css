@@ -798,3 +798,25 @@ img {
 .about-entry .about-section {
   margin: 40px 60px;
 }
+.about-entry .about-section #social a{
+  display: inline-block;
+  margin-right: 12px;
+  height: 30px;
+  width: 30px;
+  text-indent: -9999em;
+}
+.about-entry .about-section #social #github{
+  background:url("./assets/images/social.png") -96px 0;
+}
+.about-entry .about-section #social #twitter{
+  background:url("./assets/images/social.png") 0 0;
+}
+.about-entry .about-section #social #weibo{
+  background:url("./assets/images/social.png") 223px 0;
+}
+.about-entry .about-section #social #linkdin{
+  background:url("./assets/images/social.png") 96px 0;
+}
+.about-entry .about-section #social #email{
+  background:url("./assets/images/social.png") 64px 0;
+}
