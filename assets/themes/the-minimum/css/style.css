@@ -798,6 +798,9 @@ img {
 .about-entry .about-section {
   margin: 40px 60px;
 }
+.about-entry .about-section img {
+  float: left;
+}
 .about-entry .about-section #social a{
   display: inline-block;
   margin-right: 12px;
