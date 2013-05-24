@@ -778,3 +778,6 @@ pre {
   width: 828px;
   margin: auto;
 }
+.about-entry .about-section {
+  margin: 40px 60px;
+}
