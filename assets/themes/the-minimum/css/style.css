@@ -808,18 +808,18 @@ img {
   width: 30px;
   text-indent: -9999em;
 }
-.about-entry .about-section #social #github{
+.about-entry .about-section #social #github {
   background:url("assets/images/social.png") -96px 0;
 }
-.about-entry .about-section #social #twitter{
+.about-entry .about-section #social #twitter {
   background:url("assets/images/social.png") 0 0;
 }
-.about-entry .about-section #social #weibo{
+.about-entry .about-section #social #weibo {
   background:url("assets/images/social.png") 223px 0;
 }
-.about-entry .about-section #social #linkdin{
+.about-entry .about-section #social #linkdin {
   background:url("assets/images/social.png") 96px 0;
 }
-.about-entry .about-section #social #email{
+.about-entry .about-section #social #email {
   background:url("assets/images/social.png") 64px 0;
 }
