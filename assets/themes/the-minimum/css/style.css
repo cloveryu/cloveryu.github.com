@@ -796,7 +796,7 @@ img {
   margin: auto;
 }
 .about-entry .about-section {
-  margin: 80px 160px 300px auto;
+  margin: 80px 160px 300px 160px;
 }
 .about-entry .about-section img {
   float: left;
