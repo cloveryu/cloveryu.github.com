@@ -148,7 +148,7 @@ function cube(num) {
 {% highlight javascript %}
 function pow(power) {
   return function(num) {
- 	eturn Math.pow(num, power);
+ 	return Math.pow(num, power);
   };
 }
 {% endhighlight %}
