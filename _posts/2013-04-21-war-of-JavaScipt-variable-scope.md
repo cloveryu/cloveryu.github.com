@@ -27,11 +27,11 @@ function salary(emp) {
   return sum;
 }
 function averageSalary(emps) {
-	sum = 0;  
-	for (i = 0, n = emps.length; i < n; i++) {
-		sum += salary(emps[i]);
-	}
-	return sum / n;
+  sum = 0;  
+  for (i = 0, n = emps.length; i < n; i++) {
+	sum += salary(emps[i]);
+  }
+  return sum / n;
 }
 averageSalary(emps);
 {% endhighlight %}
