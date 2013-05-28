@@ -48,7 +48,7 @@ function swap(a, i, j) {
 {% endhighlight %}
 问题并不是出在交换数组元素上，而是我们无意间创建了一个全局的变量temp。这要完全归功于JavaScript的语言规范——JavaScript会将未使用var声明的变量视为全局变量。庆幸的是，我们可以借助于类似Lint这样的代码检测工具帮我们尽早地发现这类问题。
 
-虽然全局变量有很多问题，然而它在支撑JavaScript模块之间数据共享、协同合作方面确实承担了重要的角色。此外，程序员在某些不支持ECMAScript（ES）5的环境中利用其特性检查的功能来填补一些ES5特有的特性确实受益良多。
+虽然全局变量有很多问题，然而它在支撑JavaScript模块之间数据共享、协同合作方面确实承担了重要的角色。此外，程序员在某些不支持ECMAScript 5的环境中利用其特性检查的功能来填补一些ES5特有的特性确实受益良多。
 {% highlight javascript %}
 if (!this.JSON) {
   this.JSON = {
