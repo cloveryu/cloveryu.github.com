@@ -800,12 +800,14 @@ img {
 }
 .about-entry .about-section img {
   float: left;
+  margin-right: 50px;
 }
 .about-entry .about-section #social a{
   display: inline-block;
   margin-right: 12px;
   height: 30px;
   width: 30px;
+  padding-top: 60px;
   text-indent: -9999em;
 }
 .about-entry .about-section #social #github {
