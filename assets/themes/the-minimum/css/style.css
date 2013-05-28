@@ -805,6 +805,9 @@ img {
 .about-entry .about-section #social {
   padding-top: 60px;
 }
+.about-entry .about-section #social p {
+  margin-bottom: 5px;
+}
 .about-entry .about-section #social a{
   display: inline-block;
   margin-right: 12px;
