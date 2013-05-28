@@ -17,7 +17,7 @@ tags: [JavaScript, Variable Scope]
 	var emps = [{name:"Bill", parts:[{name:"a", salary:3000}, {name:"b", salary:2000}]}, {name:"Peter", parts:[{name:"a", salary:2500}, {name:"b", salary:2000}]}];
 
 现在，我们希望能计算出Bill和Peter的平均薪水。以下是一段可能的程序片段。
-
+	{% highlight java %}
 	var i, n, sum;
 	function salary(emp) {
 		sum = 0; 
@@ -34,6 +34,7 @@ tags: [JavaScript, Variable Scope]
 		return sum / n;
 	}
 	averageSalary(emps);
+	{% endhighlight %}
 
 输出的结果并不是你口算的4750，而是2500。这是因为变量i、n和sum都是全局变量，在执行salary(emps[0])之后i的值变为了2，再回到averageSalary函数的循环体中时emps数组已然越界，最终sum的值只计算了emps数组中的第一个元素。
 
