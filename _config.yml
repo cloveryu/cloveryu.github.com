@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:title
+permalink: /blogs/:title
 
 auto: true
 pygments: true
