@@ -668,7 +668,7 @@ pre {
   }
 }
 /*
-	Not that old computer layout 
+	Not that old computer layout
 */
 @media only screen and (min-width: 1280px) {
   .the-header .logo {
@@ -697,7 +697,7 @@ pre {
   }
 }
 /*
-	Huge-screen layout 
+	Huge-screen layout
 */
 @media only screen and (min-width: 1410px) {
   .the-header .logo {
@@ -743,6 +743,7 @@ pre {
   padding: 1px 5px;
 }
 .post-title {
+  font-size: 20px;
   margin-left: 10px;
   color: #37a;
 }

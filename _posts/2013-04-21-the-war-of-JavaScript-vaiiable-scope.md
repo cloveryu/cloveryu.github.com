@@ -3,7 +3,7 @@ layout: post
 title: "JavaScript变量作用域之殇"
 description: "如果你爱上了JavaScript这门诡异的语言，那我相信你一定在与其恋爱期间饱受了其变量作用域所引发的一系列问题的不少摧残。对于任何一门编程语言，变量作用域都是一个关切的话题。正如David Herman在《Effective JavaScript》中的形象比喻..."
 category: 编程语言
-tags: [JavaScript, Variable Scope]
+tags: [JavaScript]
 ---
 {% include JB/setup %}
 
@@ -27,7 +27,7 @@ function salary(emp) {
   return sum;
 }
 function averageSalary(emps) {
-  sum = 0;  
+  sum = 0; 
   for (i = 0, n = emps.length; i < n; i++) {
 	sum += salary(emps[i]);
   }
@@ -83,10 +83,10 @@ echo $x
 
 如果你还在使用类似下面的代码为with语句找借口，那这正好是放弃它的真正原因。
 {% highlight javascript %}
-function status(info) {  
+function status(info) { 
   var widget = new Widget();
   with (widget) {
-    setFontSize(13);  
+    setFontSize(13); 
 	setText("Status: " + info);
 	show();
   }
@@ -100,9 +100,9 @@ status("connected");
 {% endhighlight %}
 第二次status函数调用并不会得到预期的结果“Status:connected”而是“Status:[[widget info]]”。这是因为在第二次status函数调用之前，我们修改了widget的原型对象（增加了一个info属性）。这将导致status函数的参数info会被处于词法作用域链表头的widget对象的原型对象中的info属性所屏蔽。除此之外，with语句还会导致性能问题。这与在采用链地址法解决散列冲突的散列表中查找关键字是异曲同工的。下面是修正的代码。
 {% highlight javascript %}
-function status(info) {  
+function status(info) { 
   var w = new Widget(); 
-  w.setFontSize(13);  
+  w.setFontSize(13); 
   w.setText("Status: " + info);
   w.show();
 }
@@ -112,7 +112,7 @@ function status(info) {  
 JavaScript支持词法作用域，但并不支持块级作用域，即变量定义的作用域并不是离其最近的封闭语句或代码块，而是包含它们的函数。下面的代码片段诠释了这一特性。
 {% highlight javascript %}
 var emps = [{name:"Bill", salary: 5000}, {name:"Peter", salary: 3000}];
-var ben = {name:"ben", salary: 6000}; 
+var ben = {name:"ben", salary: 6000};
 
 function isHighestSalary(emp, others) {
    var highest = 0; 
@@ -165,9 +165,9 @@ function doubleArray(a) {
   var result = [];
   for (var i = 0, n = a.length; i < n; i++) {
 	(function(j) {
-	  result[i] = function() { 
-	    return a[j] * 2; 
-	  }; 
+	  result[i] = function() {
+	    return a[j] * 2;
+	  };
 	})(i);
   }
   return result;
