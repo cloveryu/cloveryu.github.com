@@ -835,3 +835,7 @@ img {
 .about-entry .about-section #social #email {
   background:url("/assets/images/social.png") 64px 0;
 }
+
+#erro_presentation {
+  text-align: center;
+}
