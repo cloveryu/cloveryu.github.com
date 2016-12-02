@@ -16,7 +16,7 @@ tagline: Supporting tagline
 		<div class="entry-content">
 			<div class="index-entry">
 				{% for post in site.posts %}
-				<div class="post-section" onclick="location.href = {{ BASE_PATH }}{{ post.url }};">
+				<div class="post-section">
 					<div>
 						<span class="post-date">{{ post.date | date_to_string }}</span>
 						<span class="post-title">{{ post.title }}</span>

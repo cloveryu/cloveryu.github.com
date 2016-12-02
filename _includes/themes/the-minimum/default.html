@@ -14,6 +14,14 @@
 	<link href='{{ ASSET_PATH }}/css/pygments.css' rel="stylesheet" media="all">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
 	<script src="{{ ASSET_PATH }}/js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.post-section').click(function() {
+				console.log("test");
+				$(this).find('a').trigger('click');
+			});
+		});
+	</script>
 </head>
 <body>
 
