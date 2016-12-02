@@ -17,8 +17,9 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.post-section').click(function() {
-				console.log("test");
-				$(this).find('a').trigger('click');
+				var url = $(this).find('a').attr('href');
+				console.log(url);
+				$(location).attr('href', url);
 			});
 		});
 	</script>
