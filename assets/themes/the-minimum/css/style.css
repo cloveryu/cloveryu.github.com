@@ -253,6 +253,9 @@ pre {
 .unit-article header h1 {
   color: #37a;
 }
+.unit-article .entry-title {
+  text-align: center;
+}
 .unit-article .entry-content h2,
 .unit-article .entry-content h3,
 .unit-article .entry-content h4,
