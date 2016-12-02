@@ -7,7 +7,7 @@ tags: [CICS, SOA, ESB]
 ---
 {% include JB/setup %}
 
-#传统的CICS
+## 传统的CICS
 [CICS](http://en.wikipedia.org/wiki/CICS)(Customer Information Control System)是主要运行于IBM[大机系统](http://en.wikipedia.org/wiki/Mainframe_computer)上的事务处理和事务管理服务器。以其快速、稳定、高容量的联机事务特性博得了超过90％的财富500强公司的青睐。银行、保险以及政府机构的bank-teller应用、ATM系统、 保险行业应用系统以及工业生产控制系统等背后无一没有CICS的踪迹。另一方面,为了增强市场的动态适应能力、加快运营速度、减少成本，各个行业的企业都在改进他们的业务模式和工作流程来适应这种改变。而IT基础设施与企业业务不相符的现状，极大地催生出了一种新的企业软件设计架构——[SOA](http://en.wikipedia.org/wiki/Service-oriented_architecture)（面向服务的体系结构）。
 
 #从CICS到SOA
