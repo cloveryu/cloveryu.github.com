@@ -735,6 +735,7 @@ pre {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   color: #666;
+  cursor: pointer;
 }
 .post-section:hover {
   background-color: #edf4ed;
